@@ -1,0 +1,99 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 15px !important;
+}
+::-webkit-scrollbar-track{
+    background: #eaebec !important;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(255,92,92);
+    background: linear-gradient(0deg, rgba(255,92,92,1) 0%, rgba(101,18,18,1) 100%);
+    border-radius: 10px;
+}
+/* ********************************
+            HERO SEC CSS
+******************************** */
+#hero-icn{
+    display: block;
+    margin: auto 0 auto auto;
+}
+/* ********************************
+            END
+******************************** */
+
+/* ********************************
+            NAVBAR CSS
+******************************** */
+
+.navbar{
+    position: sticky !important;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+}
+.navbar-nav{
+    display: flex !important;
+    font-weight: 500;
+    margin: auto 0 auto auto !important;
+}
+.navbar-nav .btn{
+    color: white;
+    font-weight: 500;
+    border-radius: 12px;
+}
+.bt1{
+    transition: all;
+    transition-duration: .5s;
+}
+.bt1:hover{
+    background-color: black !important;
+}
+
+.modal-content{
+    background-color: transparent !important;
+    border: none !important;
+}
+.modal-header{
+    background-color: transparent !important;
+}
+.modal-body{
+    background-color: rgb(255, 255, 255);
+}
+
+#f1{
+    display: block !important;
+}
+#f2{
+    display: none !important;
+}
+
+@media only screen and (max-width: 991px){
+    #hero-sec{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 448px){
+    #nh{
+        letter-spacing: 1px !important;
+    }
+    #nu{
+        margin-left: -10px;
+    }
+    #f1{
+        display: none !important;
+    }
+    #f2{
+        display: block !important;
+    }
+
+}
